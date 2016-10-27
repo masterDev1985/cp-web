@@ -1,0 +1,50 @@
+{
+  "credentials": {
+    "peers": [
+      {
+        "discovery_host": "9.37.137.218",
+        "discovery_port": 30304,
+        "api_host": "9.37.137.218",
+        "api_port_tls": 5002,
+        "api_port": 5002,
+        "type": "peer",
+        "network_id": "dba4b7d9f1ed40cb9784c51368f2a794",
+        "container_id": "c59a5fe300c2ae7419dacc45cd91c84ed6c1306e3f2bbb3e291e5d682fd5ca60",
+        "id": "dba4b7d9f1ed40cb9784c51368f2a794-vp1",
+        "api_url": "http://9.37.137.218:5002"
+      }
+    ],
+    "ca": {
+      "dba4b7d9f1ed40cb9784c51368f2a794-ca": {
+        "url": "9.37.137.218:50052",
+        "discovery_host": "9.37.137.218",
+        "discovery_port": 50052,
+        "api_host": "9.37.137.218",
+        "api_port_tls": 50052,
+        "api_port": 50052,
+        "type": "ca",
+        "network_id": "dba4b7d9f1ed40cb9784c51368f2a794",
+        "container_id": "5e3f2a1a16f4562e5b3501fdacf3563997bedea1ce848e5f981c16164207fa5d",
+        "newUsersObj": [
+          {
+            "enrollId": "WebAppAdmin",
+            "enrollSecret": "DJY27pEnl16d",
+            "group": "group1",
+            "affiliation": "0001",
+            "username": "WebAppAdmin",
+            "secret": "DJY27pEnl16d"
+          }
+        ]
+      }
+    },
+    "users": [
+      {
+        "username": "WebAppAdmin",
+        "secret": "DJY27pEnl16d",
+        "enrollId": "WebAppAdmin",
+        "enrollSecret": "DJY27pEnl16d"
+      }
+    ],
+    "cert": "https://blockchain-certs.mybluemix.net/us.blockchain.ibm.com.cert"
+  }
+}
