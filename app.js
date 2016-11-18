@@ -301,6 +301,7 @@ function start_websocket_server(error, d) {
                     '\n  message: ' + msg + ')');
             }
 
+            console.log(TAG, 'Requesting chainstats from:', options.host + ':' + options.port);
             var request = https.request(options, function (resp) {
                 var str = '', chunks = 0;
                 resp.setEncoding('utf8');
